@@ -38,10 +38,7 @@
 | git config --global user.username <username> | Add your Github username to your git configuration |
 | git config --global user.username | Double check what you have set in your git config |
 
-**_NOTE:_**
-
-Make sure you type "user.username" above and not "user.name", which would override the name you set in the first challenge and leave you with no username property! If you found you did that, it's ok, just repeat the step in the first challenge to add your name.
-
+**_NOTE:_** Make sure you type "user.username" above and not "user.name", which would override the name you set in the first challenge and leave you with no username property! If you found you did that, it's ok, just repeat the step in the first challenge to add your name.
 
 ### **REMOTES**
 
@@ -57,15 +54,13 @@ CREATE REMOTE REPO:
 1. Leave '.gitignore' and 'license' set to 'none'. (It will not be used in this tutorial)
 1. Click create repository
 
------
 
 CONNECT LOCAL REPO TO REMOTE REPO:
 1. On github, copy the address/url showed on Quick setup. Make sure the https button is selected.
-2. git remote add origin <URL-FROM-GITHUB>	- Add a remote named 'origin' to your repo:
+1. `git remote add origin <URL-FROM-GITHUB>` - Add a remote named 'origin' to your repo:
 
 (Your local repo now knows where your remote repo named 'origin', lives on github. Think of it as adding a name and address on your speed dial - now when you need to send something there, you can.)
 
------
 
 PUSH WORK TO YOUR REMOTE:
 Next, you want to push (send) everything you've done locally to your remote repo on Github. This is something you'll do often so that your remote version is up to date and matching the state of your local version.
