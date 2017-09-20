@@ -1,4 +1,6 @@
 # **SUMMARY**
+--
+
 
 **REPOSITORY** - collection of related items, or files related to a software project.  
 **GIT REPOSITORY** - folder or items being tracked by Git.  
@@ -39,23 +41,21 @@
 | git config --global user.username | Double check what you have set in your git config |
 
 **_NOTE:_**
+
 Make sure you type "user.username" above and not "user.name", which would override the name you set in the first challenge and leave you with no username property! If you found you did that, it's ok, just repeat the step in the first challenge to add your name.
 
 
 ### **REMOTES**
 
-REMOTE REPO - putting your repos on Github. Those repos lives on one of Github's servers.
+**REMOTE REPO** - putting your repos on Github. Those repos lives on one of Github's servers.
 
-By PUSHING your local (on your computer) changes to it, you keep it up to date.
-Others can always get the latest from your project by PULLING your changes down from the remote (and onto their computer).
-
------
+By **PUSHING** your local (on your computer) changes to it, you keep it up to date. Others can always get the latest from your project by **PULLING** your changes down from the remote (and onto their computer).
 
 CREATE REMOTE REPO:
 1. Go to github.com, log in and click the '+' in the top right and then click 'New repository'.
-2. Give it a name that matches your local repo's name and a short description.
-3. Make it public. This means it will be listed on your public profile.
-4. Don't initialize with a README because we already have a file, locally, named 'readme.txt'.
+1. Give it a name that matches your local repo's name and a short description.
+1. Make it public. This means it will be listed on your public profile.
+1. Don't initialize with a README because we already have a file, locally, named 'readme.txt'.
 5. Leave '.gitignore' and 'license' set to 'none'. (It will not be used in this tutorial)
 6. Click create repository
 
