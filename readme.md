@@ -55,7 +55,7 @@ By **PUSHING** your local (on your computer) changes to it, you keep it up to da
   * Leave '.gitignore' and 'license' set to 'none'. (It will not be used in this tutorial)
   * Click create repository
 
-1. **CONNECT LOCAL REPO TO REMOTE REPO:**
+2. **CONNECT LOCAL REPO TO REMOTE REPO:**
   * On github, copy the address/url showed on Quick setup. Make sure the https button is selected.
   * ```git remote add origin <URL-FROM-GITHUB>``` - Add a remote named 'origin' to your repo:
 
@@ -63,9 +63,9 @@ By **PUSHING** your local (on your computer) changes to it, you keep it up to da
 
 3. **PUSH WORK TO YOUR REMOTE:**
   * Next, you want to push (send) everything you've done locally to your remote repo on Github. This is something you'll do often so that your remote version is up to date and matching the state of your local version.
-  ```git push origin master```
+  * ```git push origin master```  
 
-origin - the name given to your remote repo
+origin - the name given to your remote repo  
 master - the name given to your local repo
 
 -----
