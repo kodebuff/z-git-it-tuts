@@ -110,13 +110,13 @@ used to isolate and continue work when needed without affecting the main branch 
   - `git commit -m "message"`
 5. `git push origin <BRANCH-NAME>`
 
-**COMMANDS**
-`git checkout -b <BRANCH-NAME>` - Create and switch to a branch in one line.
-`git branch <BRANCH-NAME>` - Create a new branch.
-`git checkout <BRANCH-NAME>` - Move onto a branch.
-`git branch` - List the branches.
-`git branch -m <NEW-BRANCH-NAME>` - Rename a branch you're currently on.
-`git status` - Verify what branch you're working on.
+**COMMANDS**  
+`git checkout -b <BRANCH-NAME>` - Create and switch to a branch in one line.  
+`git branch <BRANCH-NAME>` - Create a new branch.  
+`git checkout <BRANCH-NAME>` - Move onto a branch.  
+`git branch` - List the branches.  
+`git branch -m <NEW-BRANCH-NAME>` - Rename a branch you're currently on.  
+`git status` - Verify what branch you're working on.  
 
 **MERGE BRANCH**
 1. `git checkout master` - move into main branch
