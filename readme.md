@@ -1,5 +1,6 @@
 # **SUMMARY**
-
+  
+  
 **REPOSITORY** - collection of related items, or files related to a software project.  
 **GIT REPOSITORY** - folder or items being tracked by Git.  
 **VERSION CONTROL** - tracking of files added, removed, modified, who did it.
@@ -46,25 +47,23 @@
 
 By **PUSHING** your local (on your computer) changes to it, you keep it up to date. Others can always get the latest from your project by **PULLING** your changes down from the remote (and onto their computer).
 
-### CREATE REMOTE REPO:
-1. Go to github.com, log in and click the '+' in the top right and then click 'New repository'.
-1. Give it a name that matches your local repo's name and a short description.
-1. Make it public. This means it will be listed on your public profile.
-1. Don't initialize with a README because we already have a file, locally, named 'readme.txt'.
-1. Leave '.gitignore' and 'license' set to 'none'. (It will not be used in this tutorial)
-1. Click create repository
+1. **CREATE REMOTE REPO:**
+  * Go to github.com, log in and click the '+' in the top right and then click 'New repository'.
+  * Give it a name that matches your local repo's name and a short description.
+  * Make it public. This means it will be listed on your public profile.
+  * Don't initialize with a README because we already have a file, locally, named 'readme.txt'.
+  * Leave '.gitignore' and 'license' set to 'none'. (It will not be used in this tutorial)
+  * Click create repository
 
-### CONNECT LOCAL REPO TO REMOTE REPO:
-1. On github, copy the address/url showed on Quick setup. Make sure the https button is selected.
-1. ``git remote add origin <URL-FROM-GITHUB>`` - Add a remote named 'origin' to your repo:
+1. **CONNECT LOCAL REPO TO REMOTE REPO:**
+  * On github, copy the address/url showed on Quick setup. Make sure the https button is selected.
+  * ```git remote add origin <URL-FROM-GITHUB>``` - Add a remote named 'origin' to your repo:
 
 (Your local repo now knows where your remote repo named 'origin', lives on github. Think of it as adding a name and address on your speed dial - now when you need to send something there, you can.)
 
-
-PUSH WORK TO YOUR REMOTE:
-Next, you want to push (send) everything you've done locally to your remote repo on Github. This is something you'll do often so that your remote version is up to date and matching the state of your local version.
-
-3. git push origin master
+3. **PUSH WORK TO YOUR REMOTE:**
+  * Next, you want to push (send) everything you've done locally to your remote repo on Github. This is something you'll do often so that your remote version is up to date and matching the state of your local version.
+  ```git push origin master```
 
 origin - the name given to your remote repo
 master - the name given to your local repo
