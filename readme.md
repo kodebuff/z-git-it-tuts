@@ -31,13 +31,13 @@
 | git add . | To add all files changes |
 | git commit -m "your commit message" | Commit (aka save) the changes you've added with a short message describing the changes |
 
-### ** GITHUB BIN **
+### **GITHUB BIN**
 
 | Command |   |
 | git config --global user.username <username> | Add your Github username to your git configuration |
 | git config --global user.username | Double check what you have set in your git config |
 
-**__NOTE:__**
+__**NOTE:**__
 Make sure you type "user.username" above and not "user.name", which would override the name you set in the first challenge and leave you with no username property! If you found you did that, it's ok, just repeat the step in the first challenge to add your name.
 
 ------------------------------
