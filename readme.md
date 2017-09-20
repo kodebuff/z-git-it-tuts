@@ -124,11 +124,11 @@ used to isolate and continue work when needed without affecting the main branch 
 3. `git branch -d <BRANCH-NAME>` - delete the branch you merged
 4. `git push <REMOTE-NAME> --delete <BRANCH-NAME>` - Delete a remote branch.
 
-**COMMANDS**
-`git merge <BRANCHNAME>` - Merge a branch into current branch.
-`git checkout <BRANCHNAME>` - Change the branch you're working on.
-`git branch -d <BRANCHNAME>` - Delete a local branch.
-`git push <REMOTENAME> --delete <BRANCHNAME>` - Delete a remote branch.
+**COMMANDS**  
+`git merge <BRANCHNAME>` - Merge a branch into current branch.  
+`git checkout <BRANCHNAME>` - Change the branch you're working on.  
+`git branch -d <BRANCHNAME>` - Delete a local branch.  
+`git push <REMOTENAME> --delete <BRANCHNAME>` - Delete a remote branch.  
 
 ### PULL
 
