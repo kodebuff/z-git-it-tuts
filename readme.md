@@ -37,7 +37,7 @@
 | git config --global user.username <username> | Add your Github username to your git configuration |
 | git config --global user.username | Double check what you have set in your git config |
 
-__**NOTE:**__
+**_NOTE:_**
 Make sure you type "user.username" above and not "user.name", which would override the name you set in the first challenge and leave you with no username property! If you found you did that, it's ok, just repeat the step in the first challenge to add your name.
 
 ------------------------------
