@@ -16,8 +16,8 @@
 
 | Command |   |
 | ------- | - |
-| mkdir <folder-name | Make a new folder (aka make directory) |
-| cd <folder-name | Navigate into an existing folder (aka change directory) |
+| mkdir <folder-name> | Make a new folder (aka make directory) |
+| cd <folder-name> | Navigate into an existing folder (aka change directory) |
 | ls | List the items in a folder |
 | git init | initialize git |
 
