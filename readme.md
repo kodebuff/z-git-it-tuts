@@ -11,7 +11,7 @@
 | ------- | - |
 | git --version | check if git was installed |
 | git config --global user.name "your name" | set your name |
-| git config --global user.email "your email" | set your name |
+| git config --global user.email "your email" | set your email |
 
 ### CREATING LOCAL REPO
 
@@ -78,77 +78,61 @@ By **PUSHING** your local (on your computer) changes to it, you keep it up to da
 
 ### FORKS AND CLONES
 
------
+**FORK Repo** - creating a copy of other'r repo on your github account.  
+**CLONE Repo** - getting a forked repo from your github and save it to your computer.  
 
-FORK Repo   - creating a copy of other'r repo on your github account.
-CLONE Repo 	- getting a forked repo from your github and save it to your computer.
-
------
-
-CLONE A FORKED REPO:
+**CLONE A FORKED REPO:**
 1. Make sure you're not inside a local repo. If inside a repo, exit by changing directory one level.
-2. git clone <URL-FROM-GITHUB>	- clone your forked repo.
-3. cd <CLONED-REPO-FOLDER>	    - go to the folder it created by changing directory.
-4. git remote -v		            - Check remote address setup (should have origin)
+2. `git clone <URL-FROM-GITHUB>` - clone your forked repo.
+3. `cd <CLONED-REPO-FOLDER>` - go to the folder it created by changing directory.
+4. `git remote -v` - Check remote address setup (should have origin)
 
------
+**CONNECT TO ORIGINAL REPO:**
 
-CONNECT TO ORIGINAL REPO:
 Original repo might change, you need to pull those changes.
 
-1. git remote add upstream <ORIG-FORKED-REPO-URL>
-2. git remote -v					                        - check remote address setup (should have
-							                                      origin and upstream)
+1. `git remote add upstream <ORIG-FORKED-REPO-URL>`
+2. `git remote -v` - check remote address setup (should have origin and upstream)
 
-upstream - name given for orig repo
+**upstream** - name given for orig repo
 
-------------------------------
+### BRANCHES
 
-BRANCHES
 used to isolate and continue work when needed without affecting the main branch named master.
 
------
-
-CREATE BRANCH
-1. git status
-2. git branch <BRANCH-NAME>
-3. git checkout <BRANCH-NAME>
+**CREATE BRANCH**
+1. `git status`
+2. `git branch <BRANCH-NAME>`
+3. `git checkout <BRANCH-NAME>`
 4. Add changes and update branch
-	git status
-	git add .
-	git commit -m "message"
-5. git push origin <BRANCH-NAME>
+  - `git status`
+  - `git add .`
+  - `git commit -m "message"`
+5. `git push origin <BRANCH-NAME>`
 
------
+**COMMANDS**
+`git checkout -b <BRANCH-NAME>` - Create and switch to a branch in one line.
+`git branch <BRANCH-NAME>` - Create a new branch.
+`git checkout <BRANCH-NAME>` - Move onto a branch.
+`git branch` - List the branches.
+`git branch -m <NEW-BRANCH-NAME>` - Rename a branch you're currently on.
+`git status` - Verify what branch you're working on.
 
-git checkout -b <BRANCH-NAME>	  - Create and switch to a branch in one line.
-git branch <BRANCH-NAME>	      - Create a new branch.
-git checkout <BRANCH-NAME>	    - Move onto a branch.
-git branch			                - List the branches.
-git branch -m <NEW-BRANCH-NAME>	- Rename a branch you're currently on.
-git status			                - Verify what branch you're working on.
+**MERGE BRANCH**
+1. `git checkout master` - move into main branch
+2. `git merge <BRANCH-NAME>` - merge a branch to main branch
+3. `git branch -d <BRANCH-NAME>` - delete the branch you merged
+4. `git push <REMOTE-NAME> --delete <BRANCH-NAME>` - Delete a remote branch.
 
-------------------------------
+**COMMANDS**
+`git merge <BRANCHNAME>` - Merge a branch into current branch.
+`git checkout <BRANCHNAME>` - Change the branch you're working on.
+`git branch -d <BRANCHNAME>` - Delete a local branch.
+`git push <REMOTENAME> --delete <BRANCHNAME>` - Delete a remote branch.
 
-MERGE BRANCH
-1. git checkout master					                  - move into main branch
-2. git merge <BRANCH-NAME> 				                - merge a branch to main branch
-3. git branch -d <BRANCH-NAME>				            - delete the branch you merged
-4. git push <REMOTE-NAME> --delete <BRANCH-NAME>  - Delete a remote branch.
+### PULL
 
------
-
-git merge <BRANCHNAME>				              - Merge a branch into current branch.
-git checkout <BRANCHNAME>			              - Change the branch you're working on.
-git branch -d <BRANCHNAME>			            - Delete a local branch.
-git push <REMOTENAME> --delete <BRANCHNAME>	- Delete a remote branch.
-
-------------------------------
-
-PULL
 You need to stay up to date with the latest changes if you're working on a project with someone else.
 
-git pull <REMOTE-NAME> <BRANCH-NAME>	- Pull in changes from a remote branch.
-git fetch --dry-run			              - See changes to the remote before you pull in.
-
-------------------------------
+`git pull <REMOTE-NAME> <BRANCH-NAME>` - Pull in changes from a remote branch.
+`git fetch --dry-run` - See changes to the remote before you pull in.
