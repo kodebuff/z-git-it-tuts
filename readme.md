@@ -9,7 +9,7 @@
 | Command |   |
 | ------- | - |
 | git --version | check if git was installed |
-| ```git config --global user.name "your name"``` | set your name |
+| git config --global user.name "your name" | set your name |
 | ```git config --global user.email "your email"``` | set your name |
 
 ### CREATING LOCAL REPO
