@@ -1,3 +1,4 @@
+
 # **SUMMARY**
 
 **REPOSITORY** - collection of related items, or files related to a software project.  
@@ -21,17 +22,16 @@
 | ls | List the items in a folder |
 | git init | initialize git |
 
+### COMMIT (aka SAVE)
 
-COMMIT (aka SAVE)
+| Command |   |
+| ------- | - |
+| git status | Check status of changes to a repository |
+| git diff | View changes to files |
+| git add <file-name> | Add a file's changes to be committed |
+| git add . | To add all files changes |
+| git commit -m "your commit message" | Commit (aka save) the changes you've added with a short message describing the changes |
 
-git status				                  - Check status of changes to a repository
-git diff				                    - View changes to files
-git add <FILENAME>                  - Add a file's changes to be committed
-git add .				                    - To add all files changes
-git commit -m "your commit message" - To commit (aka save) the changes you've added with a short
-					                            message describing the changes
-
-------------------------------
 
 GITHUB BIN
 
