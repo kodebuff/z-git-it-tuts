@@ -1,19 +1,19 @@
 # **SUMMARY**
-#
+
 **REPOSITORY** - collection of related items, or files related to a software project.  
 **GIT REPOSITORY** - folder or items being tracked by Git.  
 **VERSION CONTROL** - tracking of files added, removed, modified, who did it.
 
-##### CONFIGURE GIT
-#
+### CONFIGURE GIT
+
 | Command |   |
 | ------- | - |
-| ```git --version``` | check if git was installed |
+| git --version | check if git was installed |
 | ```git config --global user.name "your name"``` | set your name |
 | ```git config --global user.email "your email"``` | set your name |
 
-##### CREATING LOCAL REPO
-#
+### CREATING LOCAL REPO
+
 | Command | - |
 | ------- | - |
 | ```mkdir <folder-name>``` | Make a new folder (aka make directory) |
