@@ -1,6 +1,4 @@
 # **SUMMARY**
----
-
 
 **REPOSITORY** - collection of related items, or files related to a software project.  
 **GIT REPOSITORY** - folder or items being tracked by Git.  
@@ -56,8 +54,8 @@ CREATE REMOTE REPO:
 1. Give it a name that matches your local repo's name and a short description.
 1. Make it public. This means it will be listed on your public profile.
 1. Don't initialize with a README because we already have a file, locally, named 'readme.txt'.
-5. Leave '.gitignore' and 'license' set to 'none'. (It will not be used in this tutorial)
-6. Click create repository
+1. Leave '.gitignore' and 'license' set to 'none'. (It will not be used in this tutorial)
+1. Click create repository
 
 -----
 
