@@ -1,27 +1,26 @@
-Summary of commands that I learned from git-it
+# **SUMMARY**
+#
+**REPOSITORY** - collection of related items, or files related to a software project.  
+**GIT REPOSITORY** - folder or items being tracked by Git.  
+**VERSION CONTROL** - tracking of files added, removed, modified, who did it.
 
-CONFIGURE GIT
+##### CONFIGURE GIT
+#
+| Command |   |
+| ------- | - |
+| ```git --version``` | check if git was installed |
+| ```git config --global user.name "your name"``` | set your name |
+| ```git config --global user.email "your email"``` | set your name |
 
-git --version					                      - verify if git was installed
-git config --global user.name "your name"	  - set name
-git config --global user.email "your email"	- set email
+##### CREATING LOCAL REPO
+#
+| Command | - |
+| ------- | - |
+| ```mkdir <folder-name>``` | Make a new folder (aka make directory) |
+| ```cd <folder-name>``` | Navigate into an existing folder (aka change directory) |
+| ```ls``` | List the items in a folder |
+| ```git init``` | initialize git |
 
-------------------------------
-
-REPOSITORY 	    - collection of related items, or files related to a software project.
-GIT REPOSITORY 	- folder or items being tracked by Git.
-VERSION CONTROL	- tracking of files added, removed, modified, who did it.
-
-------------------------------
-
-CREATING LOCAL REPO
-
-mkdir <FOLDERNAME>	- Make a new folder (aka make directory)
-cd <FOLDERNAME>		  - Navigate into an existing folder (aka change directory)
-ls			            - List the items in a folder
-git init		        - Turn Git on for a folder:
-
-------------------------------
 
 COMMIT (aka SAVE)
 
