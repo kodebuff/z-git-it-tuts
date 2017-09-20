@@ -10,16 +10,16 @@
 | ------- | - |
 | git --version | check if git was installed |
 | git config --global user.name "your name" | set your name |
-| ```git config --global user.email "your email"``` | set your name |
+| git config --global user.email "your email" | set your name |
 
 ### CREATING LOCAL REPO
 
-| Command | - |
+| Command |   |
 | ------- | - |
-| ```mkdir <folder-name>``` | Make a new folder (aka make directory) |
-| ```cd <folder-name>``` | Navigate into an existing folder (aka change directory) |
-| ```ls``` | List the items in a folder |
-| ```git init``` | initialize git |
+| mkdir <folder-name | Make a new folder (aka make directory) |
+| cd <folder-name | Navigate into an existing folder (aka change directory) |
+| ls | List the items in a folder |
+| git init | initialize git |
 
 
 COMMIT (aka SAVE)
