@@ -31,7 +31,7 @@
 | git add . | To add all files changes |
 | git commit -m "your commit message" | Commit (aka save) the changes you've added with a short message describing the changes |
 
-### **GITHUB BIN**
+### GITHUB BIN
 
 | Command |   |
 | ------- | - |
@@ -40,13 +40,13 @@
 
 **_NOTE:_** Make sure you type "user.username" above and not "user.name", which would override the name you set in the first challenge and leave you with no username property! If you found you did that, it's ok, just repeat the step in the first challenge to add your name.
 
-### **REMOTES**
+### REMOTES
 
 **REMOTE REPO** - putting your repos on Github. Those repos lives on one of Github's servers.
 
 By **PUSHING** your local (on your computer) changes to it, you keep it up to date. Others can always get the latest from your project by **PULLING** your changes down from the remote (and onto their computer).
 
-CREATE REMOTE REPO:
+### CREATE REMOTE REPO:
 1. Go to github.com, log in and click the '+' in the top right and then click 'New repository'.
 1. Give it a name that matches your local repo's name and a short description.
 1. Make it public. This means it will be listed on your public profile.
@@ -54,10 +54,9 @@ CREATE REMOTE REPO:
 1. Leave '.gitignore' and 'license' set to 'none'. (It will not be used in this tutorial)
 1. Click create repository
 
-
-CONNECT LOCAL REPO TO REMOTE REPO:
+### CONNECT LOCAL REPO TO REMOTE REPO:
 1. On github, copy the address/url showed on Quick setup. Make sure the https button is selected.
-1. `git remote add origin <URL-FROM-GITHUB>` - Add a remote named 'origin' to your repo:
+1. ``git remote add origin <URL-FROM-GITHUB>`` - Add a remote named 'origin' to your repo:
 
 (Your local repo now knows where your remote repo named 'origin', lives on github. Think of it as adding a name and address on your speed dial - now when you need to send something there, you can.)
 
