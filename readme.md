@@ -57,9 +57,8 @@ By **PUSHING** your local (on your computer) changes to it, you keep it up to da
 
 2. **CONNECT LOCAL REPO TO REMOTE REPO:**
   * On github, copy the address/url showed on Quick setup. Make sure the https button is selected.
-  * ```git remote add origin <URL-FROM-GITHUB>``` - Add a remote named 'origin' to your repo:
-
-(Your local repo now knows where your remote repo named 'origin', lives on github. Think of it as adding a name and address on your speed dial - now when you need to send something there, you can.)
+  * ```git remote add origin <URL-FROM-GITHUB>``` - Add a remote named 'origin' to your repo
+  (Your local repo now knows where your remote repo named 'origin', lives on github. Think of it as adding a name and address on your speed dial - now when you need to send something there, you can.)
 
 3. **PUSH WORK TO YOUR REMOTE:**
   * Next, you want to push (send) everything you've done locally to your remote repo on Github. This is something you'll do often so that your remote version is up to date and matching the state of your local version.
