@@ -64,20 +64,18 @@ By **PUSHING** your local (on your computer) changes to it, you keep it up to da
   * Next, you want to push (send) everything you've done locally to your remote repo on Github. This is something you'll do often so that your remote version is up to date and matching the state of your local version.
   * ```git push origin master```  
 
-origin - the name given to your remote repo  
-master - the name given to your local repo
+**_origin_** - the name given to your remote repo  
+**_master_** - the name given to your local repo
 
------
+**_Command Summary for remote_**
+| Command |   |
+| ------- | - |
+| git remote add <REMOTE-NAME> <URL> | Add remote connections |
+| git pull <REMOTE-NAME> <BRANCH-NAME> | Pull in changes |
+| git remote -v | View remote addresses |
+| git push <REMOTE-NAME> <BRANCH> | Push changes |
 
-git remote add <REMOTE-NAME> <URL>	    - Add remote connections
-git remote set-url <REMOTE-NAME> <URL>	- Set a URL to a remote (FOR WINDOWS)
-git pull <REMOTE-NAME> <BRANCH-NAME>	  - Pull in changes
-git remote -v				                    - View remote addresses
-git push <REMOTE-NAME> <BRANCH>		      - Push changes
-
-------------------------------
-
-FORKS AND CLONES
+### FORKS AND CLONES
 
 -----
 
